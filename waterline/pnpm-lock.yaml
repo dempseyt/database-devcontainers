@@ -1,0 +1,682 @@
+lockfileVersion: "9.0"
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+  .:
+    dependencies:
+      sails-disk:
+        specifier: ^2.1.2
+        version: 2.1.2
+      sails-mongo:
+        specifier: ^2.1.1
+        version: 2.1.1
+      waterline:
+        specifier: ^0.15.2
+        version: 0.15.2
+
+packages:
+  "@mongodb-js/saslprep@1.1.7":
+    resolution:
+      {
+        integrity: sha512-dCHW/oEX0KJ4NjDULBo3JiOaK5+6axtpBbS+ao2ZInoAL9/YRQLhXzSNAFz7hP4nzLkIqsfYAK/PDE3+XHny0Q==,
+      }
+
+  "@sailshq/binary-search-tree@0.2.7":
+    resolution:
+      {
+        integrity: sha512-4q7A4I0cYzRRrPUA/mZYFQ3My26RAyWQ10IfdgHaBC6M1ZNCUpQnT7vRMZd5KgnlUBl8MSlP4JUbL5heeSHMBw==,
+      }
+
+  "@sailshq/lodash@3.10.6":
+    resolution:
+      {
+        integrity: sha512-gp2pRE/kyh3DbrQ7MaI65xNcjrToZHRa52XJsNB8kZ0Aj0fcDNQPw8entkcuaaPYzCPxXau4rpOXaw/rl0c/ZQ==,
+      }
+
+  "@sailshq/nedb@1.8.2":
+    resolution:
+      {
+        integrity: sha512-qCViMLdh5WWIWEP9ARiSZTjQ1fSEwXsd6eYkD04WIrOt6uHRVF9k5bGnDQPKvTdlCVBTzxUZhPb7VC3+BKw21g==,
+      }
+
+  "@types/webidl-conversions@7.0.3":
+    resolution:
+      {
+        integrity: sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==,
+      }
+
+  "@types/whatwg-url@11.0.5":
+    resolution:
+      {
+        integrity: sha512-coYR071JRaHa+xoEvvYqvnIHaVqaYrLPbsufM9BF63HkwI5Lgmy2QR8Q5K/lYDYo5AK82wOvSOS0UsLTpTG7uQ==,
+      }
+
+  anchor@1.4.1:
+    resolution:
+      {
+        integrity: sha512-T4rWOGuI+pjf0KgrnLMWrHBIsLCxf6HQ2OgXboMs4QAf7ogvbqIYwCLR7k7BBeTBvrmyDv1M6mZDSUl2pKLMkw==,
+      }
+
+  asap@1.0.0:
+    resolution:
+      {
+        integrity: sha512-Ej9qjcXY+8Tuy1cNqiwNMwFRXOy9UwgTeMA8LxreodygIPV48lx8PU1ecFxb5ZeU1DpMKxiq6vGLTxcitWZPbA==,
+      }
+
+  async@0.2.10:
+    resolution:
+      {
+        integrity: sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==,
+      }
+
+  async@2.6.4:
+    resolution:
+      {
+        integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==,
+      }
+
+  async@3.2.4:
+    resolution:
+      {
+        integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==,
+      }
+
+  balanced-match@1.0.2:
+    resolution:
+      {
+        integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==,
+      }
+
+  bluebird@3.2.1:
+    resolution:
+      {
+        integrity: sha512-OfdwXncy2KqoGIlXUqxe+xb7G54s8y5pdo96+KGQMkQMZ5C/rT26tT2IJxWtgiAPeklwAU6iXxxjX8b8blcTPQ==,
+      }
+
+  brace-expansion@1.1.11:
+    resolution:
+      {
+        integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==,
+      }
+
+  bson@6.8.0:
+    resolution:
+      {
+        integrity: sha512-iOJg8pr7wq2tg/zSlCCHMi3hMm5JTOxLTagf3zxhcenHsFp+c6uOs6K7W5UE7A4QIJGtqh/ZovFNMP4mOPJynQ==,
+      }
+    engines: { node: ">=16.20.1" }
+
+  concat-map@0.0.1:
+    resolution:
+      {
+        integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==,
+      }
+
+  encrypted-attr@1.0.6:
+    resolution:
+      {
+        integrity: sha512-12WE8GDkbhKcGmVp6+TyJXCcFj9NF7db33nutjOSBLlMuYY4oCGricgTEUAuRSI1xLeE1nhoDD6jSx20WgFVYg==,
+      }
+    engines: { node: ">=6.0" }
+
+  flaverr@1.10.0:
+    resolution:
+      {
+        integrity: sha512-POaguCzNjWKEKsBkks4YGgNv1LVUqTX4MTudca5ArQAxtBrPswQLAW8la4Hbo0EZy9tpU3a9WwsKdAACqZnE/Q==,
+      }
+
+  fs-extra@0.30.0:
+    resolution:
+      {
+        integrity: sha512-UvSPKyhMn6LEd/WpUaV9C9t3zATuqoqfWc3QdPhPLb58prN9tqYPlPWi8Krxi44loBoUzlobqZ3+8tGpxxSzwA==,
+      }
+
+  fs.realpath@1.0.0:
+    resolution:
+      {
+        integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==,
+      }
+
+  glob@7.2.3:
+    resolution:
+      {
+        integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==,
+      }
+    deprecated: Glob versions prior to v9 are no longer supported
+
+  graceful-fs@4.2.11:
+    resolution:
+      {
+        integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==,
+      }
+
+  inflight@1.0.6:
+    resolution:
+      {
+        integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==,
+      }
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+
+  inherits@2.0.4:
+    resolution:
+      {
+        integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==,
+      }
+
+  jsonfile@2.4.0:
+    resolution:
+      {
+        integrity: sha512-PKllAqbgLgxHaj8TElYymKCAgrASebJrWpTnEkOaTowt23VKXXN0sUeriJ+eh7y6ufb/CC5ap11pz71/cM0hUw==,
+      }
+
+  klaw@1.3.1:
+    resolution:
+      {
+        integrity: sha512-TED5xi9gGQjGpNnvRWknrwAB1eL5GciPfVFOt3Vk1OJCVDQbzuSfrF3hkUQKlsgKrG1F+0t5W0m+Fje1jIt8rw==,
+      }
+
+  localforage@1.3.0:
+    resolution:
+      {
+        integrity: sha512-ImiUj+yiF3S2X4CE0S8q55nbaDXTLhUAECW87UFq0WXPdiQUKKzznyfeFSKCqCqX2Lg/SuLYFS/l/i02YTgyJA==,
+      }
+
+  lodash.issafeinteger@4.0.4:
+    resolution:
+      {
+        integrity: sha512-VyybxpvKqtJKs4+RibsKP1qqbFsTZ6aKDsJfzqrobfMrzMRCHhXAMlKWGKD7QHy2OwGSuKuzSAv8pDyi62huWQ==,
+      }
+
+  lodash@4.17.21:
+    resolution:
+      {
+        integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==,
+      }
+
+  machine@15.2.3:
+    resolution:
+      {
+        integrity: sha512-EtEG9sTlcxSsNh6o85mgT++Gux7PHMxPQ2f4rf5Iw49L4KH94+y8CxwJG87OT7YQFUSMsStIIK3ADik0EqzaSw==,
+      }
+    engines: { node: ">= 4.0.0" }
+
+  machinepack-fs@12.0.1:
+    resolution:
+      {
+        integrity: sha512-5Hao0wOgLwUljQtmWKZDYbXNX29Otav9v5S8hxA43H2UP6KT3xFSE4cwwkBB9jHppgYtMqwGa0Q9TFC07hjFkg==,
+      }
+
+  makeerror@1.0.12:
+    resolution:
+      {
+        integrity: sha512-JmqCvUhmt43madlpFzG4BQzG2Z3m6tvQDNKdClZnO3VbIudJYmxsT0FNJMeiB2+JTSlTQTSbU8QdesVmwJcmLg==,
+      }
+
+  memory-pager@1.5.0:
+    resolution:
+      {
+        integrity: sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==,
+      }
+
+  minimatch@3.1.2:
+    resolution:
+      {
+        integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==,
+      }
+
+  minimist@1.2.8:
+    resolution:
+      {
+        integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==,
+      }
+
+  mkdirp@0.5.6:
+    resolution:
+      {
+        integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==,
+      }
+    hasBin: true
+
+  mongodb-connection-string-url@3.0.1:
+    resolution:
+      {
+        integrity: sha512-XqMGwRX0Lgn05TDB4PyG2h2kKO/FfWJyCzYQbIhXUxz7ETt0I/FqHjUeqj37irJ+Dl1ZtU82uYyj14u2XsZKfg==,
+      }
+
+  mongodb@6.3.0:
+    resolution:
+      {
+        integrity: sha512-tt0KuGjGtLUhLoU263+xvQmPHEGTw5LbcNC73EoFRYgSHwZt5tsoJC110hDyO1kjQzpgNrpdcSza9PknWN4LrA==,
+      }
+    engines: { node: ">=16.20.1" }
+    peerDependencies:
+      "@aws-sdk/credential-providers": ^3.188.0
+      "@mongodb-js/zstd": ^1.1.0
+      gcp-metadata: ^5.2.0
+      kerberos: ^2.0.1
+      mongodb-client-encryption: ">=6.0.0 <7"
+      snappy: ^7.2.2
+      socks: ^2.7.1
+    peerDependenciesMeta:
+      "@aws-sdk/credential-providers":
+        optional: true
+      "@mongodb-js/zstd":
+        optional: true
+      gcp-metadata:
+        optional: true
+      kerberos:
+        optional: true
+      mongodb-client-encryption:
+        optional: true
+      snappy:
+        optional: true
+      socks:
+        optional: true
+
+  once@1.4.0:
+    resolution:
+      {
+        integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==,
+      }
+
+  parley@3.8.3:
+    resolution:
+      {
+        integrity: sha512-9fSqT4J0jRNh+F/5EAqZvUSq232xjFXZJ3rXgKUXbIUUZ0ZPj6VjW83mI5UpVP8PMGHF3I8xycmvNjs9nQ3O8g==,
+      }
+
+  path-is-absolute@1.0.1:
+    resolution:
+      {
+        integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==,
+      }
+    engines: { node: ">=0.10.0" }
+
+  promise@5.0.0:
+    resolution:
+      {
+        integrity: sha512-N2BfLz0Sigf7rsm5NnItRwTNqEDUF2ephwEXTcOAf2cO9NwZ9TnIjOmnQNtC0r70CV0S1+uc9mSMmFH7gxk87Q==,
+      }
+
+  punycode@2.3.1:
+    resolution:
+      {
+        integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==,
+      }
+    engines: { node: ">=6" }
+
+  qs@6.4.1:
+    resolution:
+      {
+        integrity: sha512-LQy1Q1fcva/UsnP/6Iaa4lVeM49WiOitu2T4hZCyA/elLKu37L99qcBJk4VCCk+rdLvnMzfKyiN3SZTqdAZGSQ==,
+      }
+    engines: { node: ">=0.6" }
+
+  qs@6.9.7:
+    resolution:
+      {
+        integrity: sha512-IhMFgUmuNpyRfxA90umL7ByLlgRXu6tIfKPpF5TmcfRLlLCckfP/g3IQmju6jjpu+Hh8rA+2p6A27ZSPOOHdKw==,
+      }
+    engines: { node: ">=0.6" }
+
+  rimraf@2.7.1:
+    resolution:
+      {
+        integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==,
+      }
+    deprecated: Rimraf versions prior to v4 are no longer supported
+    hasBin: true
+
+  rttc@10.0.1:
+    resolution:
+      {
+        integrity: sha512-wBsGNVaZ8K1qG0n5jxQ7dnOpvpewyQHGIjbMFYx8D16+51MM+FwkZwDPgH4GtnaTSzrNvrJriXFyvDi7OTZQ0A==,
+      }
+    engines: { node: ">= 0.10.0", npm: ">= 1.4.0" }
+
+  sails-disk@2.1.2:
+    resolution:
+      {
+        integrity: sha512-WOrvlhR3pxl93BK8PZD232UwQxq93rkjsuVpJ46I0Fs4CtFFYSQW+so+0PN3F7mW6znJHv+Uk4wRvpfHqbYLNQ==,
+      }
+
+  sails-mongo@2.1.1:
+    resolution:
+      {
+        integrity: sha512-W8CBq+1EmfPJYclUXeGX8nXmAV9a1T2A79E5Z5Y9OvvlHlG/+5xh7Wu8D8eAMu/PoV9gr2Gfrv0XeuPTxfW0xQ==,
+      }
+
+  sparse-bitfield@3.0.3:
+    resolution:
+      {
+        integrity: sha512-kvzhi7vqKTfkh0PZU+2D2PIllw2ymqJKujUcyPMd9Y75Nv4nPbGJZXNhxsgdQab2BmlDct1YnfQCguEvHr7VsQ==,
+      }
+
+  tmpl@1.0.5:
+    resolution:
+      {
+        integrity: sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==,
+      }
+
+  tr46@4.1.1:
+    resolution:
+      {
+        integrity: sha512-2lv/66T7e5yNyhAAC4NaKe5nVavzuGJQVVtRYLyQ2OI8tsJ61PMLlelehb0wi2Hx6+hT/OJUWZcw8MjlSRnxvw==,
+      }
+    engines: { node: ">=14" }
+
+  underscore@1.13.1:
+    resolution:
+      {
+        integrity: sha512-hzSoAVtJF+3ZtiFX0VgfFPHEDRm7Y/QPjGyNo4TVdnDTdft3tr8hEkD25a1jC+TjTuE7tkHGKkhwCgs9dgBB2g==,
+      }
+
+  validator@13.7.0:
+    resolution:
+      {
+        integrity: sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==,
+      }
+    engines: { node: ">= 0.10" }
+
+  walker@1.0.7:
+    resolution:
+      {
+        integrity: sha512-cF4je9Fgt6sj1PKfuFt9jpQPeHosM+Ryma/hfY9U7uXGKM7pJCsF0v2r55o+Il54+i77SyYWetB4tD1dEygRkw==,
+      }
+
+  waterline-schema@1.0.0:
+    resolution:
+      {
+        integrity: sha512-dSz/CvOLYMULKieB91+ZSv415+AVgrLhlSWbhpVHfpczIbKyj+zorsB5AG+ukGw1z0CPs6F1ib8MicBNjtwv6g==,
+      }
+
+  waterline-utils@1.4.5:
+    resolution:
+      {
+        integrity: sha512-S2KAlfsDjh6WfAgEGHn2BSAhrytnUzXc0BdO2igLrVMhnnheWSWVsW+6koOxOruxaStWuSkCqS5H5H9pL2LCOg==,
+      }
+
+  waterline@0.15.2:
+    resolution:
+      {
+        integrity: sha512-GCLabGXVh4d5l5uQEpozqsmG0PpPAxhe+kOertotTpvAI4S+Uspev+Q/tef1B7efAMUa8SMs4l5UheNpbe3zTA==,
+      }
+    engines: { node: ">=4" }
+
+  webidl-conversions@7.0.0:
+    resolution:
+      {
+        integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==,
+      }
+    engines: { node: ">=12" }
+
+  whatwg-url@13.0.0:
+    resolution:
+      {
+        integrity: sha512-9WWbymnqj57+XEuqADHrCJ2eSXzn8WXIW/YSGaZtb2WKAInQ6CHfaUUcTyyver0p8BDg5StLQq8h1vtZuwmOig==,
+      }
+    engines: { node: ">=16" }
+
+  wrappy@1.0.2:
+    resolution:
+      {
+        integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==,
+      }
+
+snapshots:
+  "@mongodb-js/saslprep@1.1.7":
+    dependencies:
+      sparse-bitfield: 3.0.3
+
+  "@sailshq/binary-search-tree@0.2.7":
+    dependencies:
+      underscore: 1.13.1
+
+  "@sailshq/lodash@3.10.6": {}
+
+  "@sailshq/nedb@1.8.2":
+    dependencies:
+      "@sailshq/binary-search-tree": 0.2.7
+      async: 0.2.10
+      localforage: 1.3.0
+      mkdirp: 0.5.6
+      underscore: 1.13.1
+
+  "@types/webidl-conversions@7.0.3": {}
+
+  "@types/whatwg-url@11.0.5":
+    dependencies:
+      "@types/webidl-conversions": 7.0.3
+
+  anchor@1.4.1:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      validator: 13.7.0
+
+  asap@1.0.0: {}
+
+  async@0.2.10: {}
+
+  async@2.6.4:
+    dependencies:
+      lodash: 4.17.21
+
+  async@3.2.4: {}
+
+  balanced-match@1.0.2: {}
+
+  bluebird@3.2.1: {}
+
+  brace-expansion@1.1.11:
+    dependencies:
+      balanced-match: 1.0.2
+      concat-map: 0.0.1
+
+  bson@6.8.0: {}
+
+  concat-map@0.0.1: {}
+
+  encrypted-attr@1.0.6:
+    dependencies:
+      lodash: 4.17.21
+
+  flaverr@1.10.0:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+
+  fs-extra@0.30.0:
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 2.4.0
+      klaw: 1.3.1
+      path-is-absolute: 1.0.1
+      rimraf: 2.7.1
+
+  fs.realpath@1.0.0: {}
+
+  glob@7.2.3:
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 3.1.2
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+
+  graceful-fs@4.2.11: {}
+
+  inflight@1.0.6:
+    dependencies:
+      once: 1.4.0
+      wrappy: 1.0.2
+
+  inherits@2.0.4: {}
+
+  jsonfile@2.4.0:
+    optionalDependencies:
+      graceful-fs: 4.2.11
+
+  klaw@1.3.1:
+    optionalDependencies:
+      graceful-fs: 4.2.11
+
+  localforage@1.3.0:
+    dependencies:
+      promise: 5.0.0
+
+  lodash.issafeinteger@4.0.4: {}
+
+  lodash@4.17.21: {}
+
+  machine@15.2.3:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      anchor: 1.4.1
+      flaverr: 1.10.0
+      parley: 3.8.3
+      rttc: 10.0.1
+
+  machinepack-fs@12.0.1:
+    dependencies:
+      fs-extra: 0.30.0
+      machine: 15.2.3
+      walker: 1.0.7
+
+  makeerror@1.0.12:
+    dependencies:
+      tmpl: 1.0.5
+
+  memory-pager@1.5.0: {}
+
+  minimatch@3.1.2:
+    dependencies:
+      brace-expansion: 1.1.11
+
+  minimist@1.2.8: {}
+
+  mkdirp@0.5.6:
+    dependencies:
+      minimist: 1.2.8
+
+  mongodb-connection-string-url@3.0.1:
+    dependencies:
+      "@types/whatwg-url": 11.0.5
+      whatwg-url: 13.0.0
+
+  mongodb@6.3.0:
+    dependencies:
+      "@mongodb-js/saslprep": 1.1.7
+      bson: 6.8.0
+      mongodb-connection-string-url: 3.0.1
+
+  once@1.4.0:
+    dependencies:
+      wrappy: 1.0.2
+
+  parley@3.8.3:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      bluebird: 3.2.1
+      flaverr: 1.10.0
+
+  path-is-absolute@1.0.1: {}
+
+  promise@5.0.0:
+    dependencies:
+      asap: 1.0.0
+
+  punycode@2.3.1: {}
+
+  qs@6.4.1: {}
+
+  qs@6.9.7: {}
+
+  rimraf@2.7.1:
+    dependencies:
+      glob: 7.2.3
+
+  rttc@10.0.1:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+
+  sails-disk@2.1.2:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      "@sailshq/nedb": 1.8.2
+      async: 2.6.4
+      flaverr: 1.10.0
+      machinepack-fs: 12.0.1
+
+  sails-mongo@2.1.1:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      async: 3.2.4
+      flaverr: 1.10.0
+      machine: 15.2.3
+      mongodb: 6.3.0
+      qs: 6.9.7
+    transitivePeerDependencies:
+      - "@aws-sdk/credential-providers"
+      - "@mongodb-js/zstd"
+      - gcp-metadata
+      - kerberos
+      - mongodb-client-encryption
+      - snappy
+      - socks
+
+  sparse-bitfield@3.0.3:
+    dependencies:
+      memory-pager: 1.5.0
+
+  tmpl@1.0.5: {}
+
+  tr46@4.1.1:
+    dependencies:
+      punycode: 2.3.1
+
+  underscore@1.13.1: {}
+
+  validator@13.7.0: {}
+
+  walker@1.0.7:
+    dependencies:
+      makeerror: 1.0.12
+
+  waterline-schema@1.0.0:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      flaverr: 1.10.0
+      rttc: 10.0.1
+
+  waterline-utils@1.4.5:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      async: 2.6.4
+      flaverr: 1.10.0
+      fs-extra: 0.30.0
+      qs: 6.4.1
+
+  waterline@0.15.2:
+    dependencies:
+      "@sailshq/lodash": 3.10.6
+      anchor: 1.4.1
+      async: 2.6.4
+      encrypted-attr: 1.0.6
+      flaverr: 1.10.0
+      lodash.issafeinteger: 4.0.4
+      parley: 3.8.3
+      rttc: 10.0.1
+      waterline-schema: 1.0.0
+      waterline-utils: 1.4.5
+
+  webidl-conversions@7.0.0: {}
+
+  whatwg-url@13.0.0:
+    dependencies:
+      tr46: 4.1.1
+      webidl-conversions: 7.0.0
+
+  wrappy@1.0.2: {}
