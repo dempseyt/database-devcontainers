@@ -1,4 +1,6 @@
 "use strict";
+// Docker image that runs a MySQL server
+// docker run --name=mysql1 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_DATABASE=test -p 5432:3306 -d mysql
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -40,7 +42,8 @@ exports.User = User = __decorate([
 ], User);
 const dataSource = new typeorm_1.DataSource({
     type: "mysql",
-    port: 5432,
+    host: "localhost",
+    port: 3306,
     username: "root",
     password: "",
     database: "test",
@@ -53,6 +56,5 @@ user.lastName = "Doe";
 dataSource.initialize().then(() => __awaiter(void 0, void 0, void 0, function* () {
     yield dataSource.manager.save(user);
     console.log(yield dataSource.manager.find(User));
-    yield dataSource.manager.remove(user);
 }));
 //# sourceMappingURL=index.js.map

@@ -23,7 +23,8 @@ export class User extends BaseEntity {
 
 const dataSource = new DataSource({
   type: "mysql",
-  port: 5432,
+  host: "localhost",
+  port: 3306,
   username: "root",
   password: "",
   database: "test",
