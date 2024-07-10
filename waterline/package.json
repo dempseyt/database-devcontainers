@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "sails-disk": "^2.1.2",
-    "sails-mongo": "^2.1.1",
+    "sails-mongo": "^2.1.1"
+  },
+  "devDependencies": {
     "waterline": "^0.15.2"
   }
 }

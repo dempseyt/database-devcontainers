@@ -1,3 +1,5 @@
+// docker run --name=mysql1 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_DATABASE=test -p 5432:3306 -d mysql
+// If this doesn't work, check your existing containers
 import {
   BaseEntity,
   Column,

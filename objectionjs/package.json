@@ -2,16 +2,19 @@
   "name": "objectionjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "knex": "^3.1.0",
-    "objection": "^3.1.4",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "objection": "^3.1.4"
   }
 }

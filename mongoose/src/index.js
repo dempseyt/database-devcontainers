@@ -13,7 +13,7 @@ async function main() {
     const User  = mongoose.model('User', userSchema)
 
     const user1 = new User({firstName: "John", lastName: "Doe"})
-    console.log(user1)
-
+    await user1.save()
+    console.log(await User.find())
     
 }

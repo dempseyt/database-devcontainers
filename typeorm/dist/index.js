@@ -19,6 +19,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.User = void 0;
+// docker run --name=mysql1 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_DATABASE=test -p 5432:3306 -d mysql
 const typeorm_1 = require("typeorm");
 let User = class User extends typeorm_1.BaseEntity {
 };
@@ -53,6 +54,5 @@ user.lastName = "Doe";
 dataSource.initialize().then(() => __awaiter(void 0, void 0, void 0, function* () {
     yield dataSource.manager.save(user);
     console.log(yield dataSource.manager.find(User));
-    yield dataSource.manager.remove(user);
 }));
 //# sourceMappingURL=index.js.map

@@ -11,12 +11,13 @@ importers:
       knex:
         specifier: ^3.1.0
         version: 3.1.0(sqlite3@5.1.7)
-      objection:
-        specifier: ^3.1.4
-        version: 3.1.4(knex@3.1.0(sqlite3@5.1.7))
       sqlite3:
         specifier: ^5.1.7
         version: 5.1.7
+    devDependencies:
+      objection:
+        specifier: ^3.1.4
+        version: 3.1.4(knex@3.1.0(sqlite3@5.1.7))
 
 packages:
 
